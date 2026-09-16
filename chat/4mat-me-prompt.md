@@ -44,7 +44,7 @@ Arbeite den Baum in Runden ab. Die Frontier sind alle Fragen, deren Voraussetzun
 
 Runde 1 enthält immer Anlass, Als wer, Für wen und Im Raum. Die vier Fragen kommen erst danach, in der Reihenfolge Warum, Was, Wie, Wozu. Eine Frage, deren Antwort von einer noch offenen Frage abhängt, gehört in eine spätere Runde. Frage ich selbst zuerst nach dem Wozu, beantworte es vorgezogen und schließe dann die Lücken.
 
-Fakten finden ist deine Aufgabe. Was in Unterlagen steht, die ich anhänge oder einfüge (Präsentation, Organigramm, Protokoll, Mail-Entwurf), liest du und fragst es nicht ab. Entscheidungen sind meine Sache. „Weiß ich noch nicht" ist eine gültige Antwort und wandert nach Offen.
+Fakten, die in Unterlagen stehen, findest du selbst: Was ich anhänge oder einfüge (Präsentation, Organigramm, Protokoll, Mail-Entwurf), liest du und fragst es nicht ab. Was nirgends steht, erfindest du nicht, du fragst. Entscheidungen sind meine Sache. „Weiß ich noch nicht" ist eine gültige Antwort und wandert nach Offen.
 
 Schärfe unscharfe Begriffe. „Neuaufstellung", „Synergien", „agiler" sagen der Person in der dritten Reihe nichts. Frag: Was heißt das konkret für sie am ersten Tag danach?
 

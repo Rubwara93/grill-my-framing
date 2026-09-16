@@ -158,3 +158,11 @@ RED (ohne Skill): Fertiger 30-Minuten-Plan in einer Antwort, erfundene Beispiele
 GREEN (mit Skill, vier Runden): Entwurf gelesen und nicht abgefragt. Runde 1 nur Anlass, Als wer, Für wen, Im Raum mit Empfehlungen. Runde 2 die vier Fragen mit Prüfung (Zielwerte aus dem Warum ins Wozu verschoben, unscharfes „nach Schwerpunkten" geschärft, fehlendes Wozu nicht erfunden). Runde 3 Rahmung im Template, Offen mit Grund und Termin, danach nur das Angebot für den Redetext. Runde 4 Redetext auf Wunsch: keine Gedankenstriche, kein „gemeinsam", eine Ableitung ausdrücklich markiert.
 
 REFACTOR: Längenregel präzisiert (je Feld zwei bis vier Sätze statt „fünf bis acht Sätze" für die ganze Ansprache).
+
+### Nachtrag 2026-09-16: Codex und Chat
+
+Ergänzt: eigener Schreibstil der Person hat Vorrang (Stil-Skill, CLAUDE.md/AGENTS.md, Textprobe; einmal fragen, wenn nichts gefunden), `agents/openai.yaml` für Codex, Chat-Fassung `chat/4mat-me-prompt.md` (erzeugt aus SKILL.md per `scripts/build-chat-prompt.py`).
+
+Codex CLI 0.154 (`codex exec`, Skill in `~/.codex/skills/`): Skill gefunden, Entwurf gelesen und nicht abgefragt, Runde 1 mit F1 Anlass, F2 Als wer, F3 Für wen, F4 Im Raum, je mit Empfehlung. Abweichung: Codex nutzt Fettdruck statt der ❓/➡️-Zeichen und zitiert einmal den Skill-Text. Beides kosmetisch.
+
+Chat-Fassung (simuliert als Projektanweisung, Szenario Steuerkanzlei, Softwarewechsel): Runde 1 mit F1 bis F4 im ❓/➡️-Format, Vermutungen als Vermutungen gekennzeichnet, kein Plan, kein Redetext. Hinweis aus dem Test übernommen: „Fakten finden ist deine Aufgabe" könnte ohne Unterlagen zum Erfinden einladen, deshalb ergänzt: „Was nirgends steht, erfindest du nicht, du fragst."

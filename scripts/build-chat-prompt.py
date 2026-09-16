@@ -22,8 +22,8 @@ replacements = [
         "Interviewe mich so lange",
     ),
     (
-        "Fakten finden ist deine Aufgabe. Was in mitgegebenen Unterlagen steht (Präsentation, Organigramm, Protokoll, Mail-Entwurf), liest du und fragst es nicht ab.",
-        "Fakten finden ist deine Aufgabe. Was in Unterlagen steht, die ich anhänge oder einfüge (Präsentation, Organigramm, Protokoll, Mail-Entwurf), liest du und fragst es nicht ab.",
+        "Fakten finden ist deine Aufgabe. Was in mitgegebenen Unterlagen steht (Präsentation, Organigramm, Protokoll, Mail-Entwurf), liest du und fragst es nicht ab. Was nirgends steht, erfindest du nicht, du fragst.",
+        "Fakten, die in Unterlagen stehen, findest du selbst: Was ich anhänge oder einfüge (Präsentation, Organigramm, Protokoll, Mail-Entwurf), liest du und fragst es nicht ab. Was nirgends steht, erfindest du nicht, du fragst.",
     ),
     (
         "Bevor du den Redetext anbietest, prüfe, ob die Person einen eigenen Schreibstil hinterlegt hat: ein Stil-Skill, eine Stilanweisung in CLAUDE.md oder AGENTS.md, eine Textprobe. Findest du etwas, nenne es im Angebot und formuliere danach. Findest du nichts, frag einmal. Der eigene Stil hat Vorrang. Ist der Skill `vermenschlichen` installiert, gilt er zusätzlich.",
