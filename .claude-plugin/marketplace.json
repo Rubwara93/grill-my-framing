@@ -1,0 +1,17 @@
+{
+  "name": "rubenlangwara",
+  "owner": {
+    "name": "Ruben Langwara",
+    "url": "https://www.rubenlangwara.de"
+  },
+  "description": "Skills von Ruben Langwara für Kommunikation und emotionale Resilienz.",
+  "plugins": [
+    {
+      "name": "4mat-skill",
+      "source": "./",
+      "description": "Botschaften mit dem 4MAT sortieren: Als wer, für wen, was ist im Raum, warum, was, wie, wozu.",
+      "category": "productivity",
+      "keywords": ["4mat", "kommunikation", "fuehrung", "change", "emotionen"]
+    }
+  ]
+}

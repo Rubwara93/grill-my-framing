@@ -1,0 +1,23 @@
+{
+  "name": "4mat-skill",
+  "version": "0.1.0",
+  "description": "Botschaften mit dem 4MAT sortieren: Als wer, für wen, was ist im Raum, warum, was, wie, wozu. Ein Interview-Skill im Stil von grill-me für Führungskräfte, Trainerinnen und Trainer.",
+  "author": {
+    "name": "Ruben Langwara",
+    "url": "https://www.rubenlangwara.de"
+  },
+  "repository": "https://github.com/Rubwara93/4mat-skill",
+  "license": "MIT",
+  "keywords": [
+    "4mat",
+    "kommunikation",
+    "fuehrung",
+    "change",
+    "emotionen",
+    "resilienz",
+    "interview"
+  ],
+  "skills": [
+    "./skills/4mat-me"
+  ]
+}
