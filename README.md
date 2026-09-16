@@ -39,6 +39,8 @@ git clone https://github.com/Rubwara93/4mat-skill.git && cp -r 4mat-skill/skills
 
 Der Skill startet nur auf Zuruf mit `/4mat-me` (in Codex: `$4mat-me` oder „nutze den Skill 4mat-me“). Der Agent greift nicht von selbst danach.
 
+**Ohne Claude Code oder Codex, einfach im Chat** (claude.ai, ChatGPT, Gemini, Copilot): Die Datei [`chat/4mat-me-prompt.md`](chat/4mat-me-prompt.md) enthält denselben Ablauf als Prompt. In claude.ai als Projektanweisung eines Projekts „4MAT-me“ einfügen, in ChatGPT als Projekt- oder Custom-GPT-Anweisung, oder als erste Nachricht einer Unterhaltung schicken und die eigene Situation darunter schreiben. Unterlagen als Anhang mitgeben. Die Chat-Fassung wird aus der SKILL.md erzeugt (`python3 scripts/build-chat-prompt.py`), Änderungen bitte dort.
+
 ## Benutzung
 
 In einer frischen Sitzung:
@@ -69,7 +71,7 @@ Der Skill ist auf Deutsch geschrieben, weil die Unterscheidung von Warum und Woz
 
 ## English summary
 
-`4mat-me` is a Claude Code skill that interviews you, round by round, until a message is sorted along the 4MAT (Bernice McCarthy): Why, What, How and, in Sebastian Mauritz's German adaptation, Wozu (what for). Two questions come first: as whom am I speaking, and to whom. A third block covers the emotions likely present in the room and what each one needs before people can listen. The skill is written in German because the Warum/Wozu distinction ("weil" versus "damit") has no clean English equivalent. It writes no files and produces a speech draft only on request. It follows the Agent Skills format, so it runs in Claude Code, Codex CLI and other agents that read `SKILL.md`. If you keep a writing style of your own (a style skill, a note in CLAUDE.md or AGENTS.md, a text sample), the speech draft follows it. Install with `/plugin marketplace add Rubwara93/4mat-skill`, `npx skills@latest add Rubwara93/4mat-skill`, or copy `skills/4mat-me` into `~/.claude/skills/` or `~/.codex/skills/`.
+`4mat-me` is a Claude Code skill that interviews you, round by round, until a message is sorted along the 4MAT (Bernice McCarthy): Why, What, How and, in Sebastian Mauritz's German adaptation, Wozu (what for). Two questions come first: as whom am I speaking, and to whom. A third block covers the emotions likely present in the room and what each one needs before people can listen. The skill is written in German because the Warum/Wozu distinction ("weil" versus "damit") has no clean English equivalent. It writes no files and produces a speech draft only on request. It follows the Agent Skills format, so it runs in Claude Code, Codex CLI and other agents that read `SKILL.md`. For plain chat (claude.ai, ChatGPT), `chat/4mat-me-prompt.md` holds the same flow as a prompt you paste into a project or a custom GPT. If you keep a writing style of your own (a style skill, a note in CLAUDE.md or AGENTS.md, a text sample), the speech draft follows it. Install with `/plugin marketplace add Rubwara93/4mat-skill`, `npx skills@latest add Rubwara93/4mat-skill`, or copy `skills/4mat-me` into `~/.claude/skills/` or `~/.codex/skills/`.
 
 ## Lizenz
 
