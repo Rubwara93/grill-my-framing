@@ -96,7 +96,7 @@ Danach ein Satz: Ob du daraus einen Redetext in ihren eigenen Worten machen soll
 
 ## Sprache in Rahmung und Redetext
 
-Kurz. Eine Ansprache von fünf bis acht Sätzen reicht oft. Schlichte Verben statt gehobener Synonyme. Kein Pathos, keine Werbesprache. Keine Gedankenstrich-Häufung. Kein „nicht nur, sondern auch", kein Dreierschema, kein siebenmal „gemeinsam". Kein Fazit-Absatz. Nichts erfinden: keine Zahlen, Termine oder Zusagen, die die Person nicht genannt hat. Fettdruck sparsam. Ist der Skill `vermenschlichen` installiert, gilt er zusätzlich.
+Kurz. Je Feld reichen meist zwei bis vier Sätze, eine ganze Ankündigung passt auf eine Seite. Schlichte Verben statt gehobener Synonyme. Kein Pathos, keine Werbesprache. Keine Gedankenstrich-Häufung. Kein „nicht nur, sondern auch", kein Dreierschema, kein siebenmal „gemeinsam". Kein Fazit-Absatz. Nichts erfinden: keine Zahlen, Termine oder Zusagen, die die Person nicht genannt hat. Fettdruck sparsam. Ist der Skill `vermenschlichen` installiert, gilt er zusätzlich.
 
 ## Woran du merkst, dass du abrutschst
 

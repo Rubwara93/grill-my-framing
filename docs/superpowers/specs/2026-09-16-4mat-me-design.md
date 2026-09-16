@@ -148,3 +148,13 @@ Skill-Erstellung folgt RED-GREEN-REFACTOR (Skill `writing-skills`):
 - Ausbildung Emotionale Resilienz (Ruben Langwara), Tag 4: Emotionale Change-Kommunikation. Interne Transkripte, nicht veröffentlicht.
 - Matt Pocock, grill-me / grilling. https://github.com/mattpocock/skills
 - McCarthy, B. (1980). The 4MAT System. Kolb, D. (1984). Experiential Learning. Antonovsky, A. (1987). Unraveling the Mystery of Health.
+
+## Testprotokoll 2026-09-16
+
+Szenario: Bereichsleiterin Kundenservice, 24 Personen, Umbau von zwei auf drei Teams, ein Teamleiter wird Fachexperte, Flurfunk seit zwei Wochen, 30 Minuten Teammeeting. Entwurfsdokument mit Fakten wurde mitgegeben.
+
+RED (ohne Skill): Fertiger 30-Minuten-Plan in einer Antwort, erfundene Beispiele und Gründe, viertes Feld als „Was heißt das für mich" statt Wozu, keine Klärung von Rolle und Zielgruppe, Redetext-Zitate ungefragt, Emotionen nur punktuell, eine Rückfrage erst am Ende.
+
+GREEN (mit Skill, vier Runden): Entwurf gelesen und nicht abgefragt. Runde 1 nur Anlass, Als wer, Für wen, Im Raum mit Empfehlungen. Runde 2 die vier Fragen mit Prüfung (Zielwerte aus dem Warum ins Wozu verschoben, unscharfes „nach Schwerpunkten" geschärft, fehlendes Wozu nicht erfunden). Runde 3 Rahmung im Template, Offen mit Grund und Termin, danach nur das Angebot für den Redetext. Runde 4 Redetext auf Wunsch: keine Gedankenstriche, kein „gemeinsam", eine Ableitung ausdrücklich markiert.
+
+REFACTOR: Längenregel präzisiert (je Feld zwei bis vier Sätze statt „fünf bis acht Sätze" für die ganze Ansprache).
