@@ -12,20 +12,32 @@ Der Skill schreibt keine Dateien. Mitgegebene Unterlagen (Präsentation, Organig
 
 ## Installation
 
-Als Plugin in Claude Code:
+**Claude Code**, als Plugin:
 
 ```
 /plugin marketplace add Rubwara93/4mat-skill
 /plugin install 4mat-skill@rubenlangwara
 ```
 
-Oder von Hand: den Ordner `skills/4mat-me` nach `~/.claude/skills/` kopieren.
+**Codex CLI**: den Ordner `skills/4mat-me` nach `~/.codex/skills/` kopieren (oder in `.codex/skills/` im Projekt). Codex liest dieselbe `SKILL.md`; die Datei `agents/openai.yaml` liefert Anzeigename und sperrt den automatischen Aufruf.
+
+```bash
+git clone https://github.com/Rubwara93/4mat-skill.git && cp -r 4mat-skill/skills/4mat-me ~/.codex/skills/
+```
+
+**Jeder Agent, der das Agent-Skills-Format kennt** (Claude Code, Codex, Cursor, Gemini CLI und andere), über den skills.sh-Installer:
+
+```bash
+npx skills@latest add Rubwara93/4mat-skill
+```
+
+Oder von Hand nach `~/.claude/skills/` kopieren:
 
 ```bash
 git clone https://github.com/Rubwara93/4mat-skill.git && cp -r 4mat-skill/skills/4mat-me ~/.claude/skills/
 ```
 
-Der Skill startet nur auf Zuruf mit `/4mat-me`. Claude greift nicht von selbst danach.
+Der Skill startet nur auf Zuruf mit `/4mat-me` (in Codex: `$4mat-me` oder „nutze den Skill 4mat-me“). Der Agent greift nicht von selbst danach.
 
 ## Benutzung
 
@@ -53,11 +65,11 @@ Mehr dazu:
 
 ## Sprache
 
-Der Skill ist auf Deutsch geschrieben, weil die Unterscheidung von Warum und Wozu im Englischen keine direkte Entsprechung hat. Für Rahmung und Redetext gelten kompakte Regeln gegen typische Muster maschineller Texte. Wer zusätzlich einen Stil-Skill namens `vermenschlichen` installiert hat (Regeln nach den Wikipedia-Seiten [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:Anzeichen_f%C3%BCr_KI-generierte_Inhalte)), bekommt ihn obendrauf angewendet.
+Der Skill ist auf Deutsch geschrieben, weil die Unterscheidung von Warum und Wozu im Englischen keine direkte Entsprechung hat. Für Rahmung und Redetext gelten kompakte Regeln gegen typische Muster maschineller Texte. Hat die Nutzerin oder der Nutzer einen eigenen Schreibstil hinterlegt (Stil-Skill, Stilanweisung in CLAUDE.md oder AGENTS.md, Textprobe), formuliert der Skill danach. Wer zusätzlich einen Stil-Skill namens `vermenschlichen` installiert hat (Regeln nach den Wikipedia-Seiten [Anzeichen für KI-generierte Inhalte](https://de.wikipedia.org/wiki/Wikipedia:Anzeichen_f%C3%BCr_KI-generierte_Inhalte)), bekommt ihn obendrauf angewendet.
 
 ## English summary
 
-`4mat-me` is a Claude Code skill that interviews you, round by round, until a message is sorted along the 4MAT (Bernice McCarthy): Why, What, How and, in Sebastian Mauritz's German adaptation, Wozu (what for). Two questions come first: as whom am I speaking, and to whom. A third block covers the emotions likely present in the room and what each one needs before people can listen. The skill is written in German because the Warum/Wozu distinction ("weil" versus "damit") has no clean English equivalent. It writes no files and produces a speech draft only on request. Install with `/plugin marketplace add Rubwara93/4mat-skill` or copy `skills/4mat-me` into `~/.claude/skills/`.
+`4mat-me` is a Claude Code skill that interviews you, round by round, until a message is sorted along the 4MAT (Bernice McCarthy): Why, What, How and, in Sebastian Mauritz's German adaptation, Wozu (what for). Two questions come first: as whom am I speaking, and to whom. A third block covers the emotions likely present in the room and what each one needs before people can listen. The skill is written in German because the Warum/Wozu distinction ("weil" versus "damit") has no clean English equivalent. It writes no files and produces a speech draft only on request. It follows the Agent Skills format, so it runs in Claude Code, Codex CLI and other agents that read `SKILL.md`. If you keep a writing style of your own (a style skill, a note in CLAUDE.md or AGENTS.md, a text sample), the speech draft follows it. Install with `/plugin marketplace add Rubwara93/4mat-skill`, `npx skills@latest add Rubwara93/4mat-skill`, or copy `skills/4mat-me` into `~/.claude/skills/` or `~/.codex/skills/`.
 
 ## Lizenz
 

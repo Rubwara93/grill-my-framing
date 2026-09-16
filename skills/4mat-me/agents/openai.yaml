@@ -1,0 +1,5 @@
+interface:
+  display_name: "4MAT-me"
+  short_description: "Eine Botschaft nach dem 4MAT sortieren: als wer, für wen, Emotionen im Raum, warum, was, wie, wozu"
+policy:
+  allow_implicit_invocation: false
