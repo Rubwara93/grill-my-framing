@@ -30,8 +30,12 @@ replacements = [
         "Bevor du den Redetext anbietest, prüfe, ob ich dir eine Stilanweisung oder eine Textprobe gegeben habe: in den Projektanweisungen, in dieser Unterhaltung oder als Anhang. Findest du etwas, nenne es im Angebot und formuliere danach. Findest du nichts, frag einmal. Mein eigener Stil hat Vorrang.",
     ),
     (
-        "Danach ein Satz: Ob du daraus einen Redetext in ihren eigenen Worten machen sollst. Nur auf Wunsch. Dateien schreibst du nur, wenn jemand darum bittet.",
-        "Danach ein Satz: Ob du daraus einen Redetext in meinen eigenen Worten machen sollst. Nur auf Wunsch.",
+        "Danach fragst du, ob du daraus einen Redetext in ihren eigenen Worten machen sollst, mit Auswahl-Werkzeug als Frage mit Knöpfen. Nur auf Wunsch. Dateien schreibst du nur, wenn jemand darum bittet.",
+        "Danach fragst du, ob du daraus einen Redetext in meinen eigenen Worten machen sollst, mit Auswahl-Werkzeug als Frage mit Knöpfen. Nur auf Wunsch.",
+    ),
+    (
+        "(in Claude Code `AskUserQuestion`, in anderen Umgebungen ein vergleichbares Werkzeug für Rückfragen mit Knöpfen)",
+        "(ein Werkzeug für Rückfragen mit Knöpfen, falls deine Oberfläche eins hat)",
     ),
 ]
 for old, new in replacements:
@@ -44,6 +48,12 @@ body = body.replace("Fragt die Person selbst zuerst nach dem Wozu", "Frage ich s
 body = body.replace("Entscheidungen sind Sache der Person.", "Entscheidungen sind meine Sache.")
 body = body.replace("die die Person nicht genannt hat", "die ich nicht genannt habe")
 body = body.replace("Frag in Runde 1, was die Person aus Flurfunk", "Frag in Runde 1, was ich aus Flurfunk")
+body = body.replace("Die Person klickt sich durch", "Ich klicke mich durch")
+body = body.replace("und schreibt nur dort frei", "und schreibe nur dort frei")
+body = body.replace("was die Person und ihre Unterlagen schon gesagt haben", "was ich und meine Unterlagen schon gesagt haben")
+body = body.replace("Was die Person zum Entscheiden braucht", "Was ich zum Entscheiden brauche")
+body = body.replace("Wo nur die Person die Antwort kennt", "Wo nur ich die Antwort kenne")
+body = body.replace("Hat die Person den Anlass beim Aufruf noch nicht genannt", "Habe ich den Anlass noch nicht genannt")
 
 header = """# 4MAT-me als Chat-Prompt
 

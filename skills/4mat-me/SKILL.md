@@ -28,13 +28,26 @@ Die Felder oben klären, wer mit wem spricht. Ohne sie ist jede Antwort auf die 
 
 ## Runden
 
-Arbeite den Baum in Runden ab. Die Frontier sind alle Fragen, deren Voraussetzungen schon geklärt sind. Stelle die ganze Frontier in einer Runde, nummeriert, jede mit deiner Empfehlung. Dann warte auf die Antworten.
+Arbeite den Baum in Runden ab. Die Frontier sind alle Fragen, deren Voraussetzungen schon geklärt sind. Stelle die ganze Frontier in einer Runde, jede mit deiner Empfehlung. Dann warte auf die Antworten.
+
+**Mit Auswahl-Werkzeug** (in Claude Code `AskUserQuestion`, in anderen Umgebungen ein vergleichbares Werkzeug für Rückfragen mit Knöpfen): Stell die Runde darüber, nicht als Text im Chat. Die Person klickt sich durch und schreibt nur dort frei, wo keine Option passt.
+
+- Höchstens vier Fragen pro Aufruf. Ist die Frontier größer, folgt direkt ein zweiter Aufruf.
+- Je Frage zwei bis vier Optionen, abgeleitet aus dem, was die Person und ihre Unterlagen schon gesagt haben. Deine Empfehlung steht als erste Option mit „(Empfohlen)" im Label. „Weiß ich noch nicht" ist eine gute Option, wo sie passt; die Antwort wandert nach Offen. Ein Freitextfeld bietet das Werkzeug selbst an.
+- Im Raum fragst du mit Mehrfachauswahl: die vier wahrscheinlichsten Emotionen aus der Tabelle unten.
+- Header kurz („Als wer", „Für wen", „Im Raum", „Warum").
+- Was die Person zum Entscheiden braucht, gehört in die Frage oder in die Beschreibung der Option. Das Fenster verdeckt den Text, den du im Chat davor schreibst.
+- Keine Optionen erfinden, die Fakten behaupten (Zahlen, Termine, Gründe). Wo nur die Person die Antwort kennt, formuliere die Optionen als Vermutung oder als Richtung.
+
+**Ohne Auswahl-Werkzeug** stellst du die Runde nummeriert im Chat:
 
 ```
 ❓ **F1** - **Titel**: Frage, gern mit Auswahlmöglichkeiten.
 
 ➡️ Deine Empfehlung.
 ```
+
+Hat die Person den Anlass beim Aufruf noch nicht genannt, frag ihn zuerst allein und in einem Satz im Chat. Ohne Anlass lassen sich keine sinnvollen Optionen bauen.
 
 Runde 1 enthält immer Anlass, Als wer, Für wen und Im Raum. Die vier Fragen kommen erst danach, in der Reihenfolge Warum, Was, Wie, Wozu. Eine Frage, deren Antwort von einer noch offenen Frage abhängt, gehört in eine spätere Runde. Fragt die Person selbst zuerst nach dem Wozu, beantworte es vorgezogen und schließe dann die Lücken.
 
@@ -92,7 +105,7 @@ Die Session ist fertig, wenn die Frontier leer ist und nichts mehr stillschweige
 **Offen** was, warum noch nicht, wann
 ```
 
-Danach ein Satz: Ob du daraus einen Redetext in ihren eigenen Worten machen sollst. Nur auf Wunsch. Dateien schreibst du nur, wenn jemand darum bittet.
+Danach fragst du, ob du daraus einen Redetext in ihren eigenen Worten machen sollst, mit Auswahl-Werkzeug als Frage mit Knöpfen. Nur auf Wunsch. Dateien schreibst du nur, wenn jemand darum bittet.
 
 ## Sprache in Rahmung und Redetext
 

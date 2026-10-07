@@ -34,13 +34,26 @@ Die Felder oben klären, wer mit wem spricht. Ohne sie ist jede Antwort auf die 
 
 ## Runden
 
-Arbeite den Baum in Runden ab. Die Frontier sind alle Fragen, deren Voraussetzungen schon geklärt sind. Stelle die ganze Frontier in einer Runde, nummeriert, jede mit deiner Empfehlung. Dann warte auf die Antworten.
+Arbeite den Baum in Runden ab. Die Frontier sind alle Fragen, deren Voraussetzungen schon geklärt sind. Stelle die ganze Frontier in einer Runde, jede mit deiner Empfehlung. Dann warte auf die Antworten.
+
+**Mit Auswahl-Werkzeug** (ein Werkzeug für Rückfragen mit Knöpfen, falls deine Oberfläche eins hat): Stell die Runde darüber, nicht als Text im Chat. Ich klicke mich durch und schreibe nur dort frei, wo keine Option passt.
+
+- Höchstens vier Fragen pro Aufruf. Ist die Frontier größer, folgt direkt ein zweiter Aufruf.
+- Je Frage zwei bis vier Optionen, abgeleitet aus dem, was ich und meine Unterlagen schon gesagt haben. Deine Empfehlung steht als erste Option mit „(Empfohlen)" im Label. „Weiß ich noch nicht" ist eine gute Option, wo sie passt; die Antwort wandert nach Offen. Ein Freitextfeld bietet das Werkzeug selbst an.
+- Im Raum fragst du mit Mehrfachauswahl: die vier wahrscheinlichsten Emotionen aus der Tabelle unten.
+- Header kurz („Als wer", „Für wen", „Im Raum", „Warum").
+- Was ich zum Entscheiden brauche, gehört in die Frage oder in die Beschreibung der Option. Das Fenster verdeckt den Text, den du im Chat davor schreibst.
+- Keine Optionen erfinden, die Fakten behaupten (Zahlen, Termine, Gründe). Wo nur ich die Antwort kenne, formuliere die Optionen als Vermutung oder als Richtung.
+
+**Ohne Auswahl-Werkzeug** stellst du die Runde nummeriert im Chat:
 
 ```
 ❓ **F1** - **Titel**: Frage, gern mit Auswahlmöglichkeiten.
 
 ➡️ Deine Empfehlung.
 ```
+
+Habe ich den Anlass noch nicht genannt, frag ihn zuerst allein und in einem Satz im Chat. Ohne Anlass lassen sich keine sinnvollen Optionen bauen.
 
 Runde 1 enthält immer Anlass, Als wer, Für wen und Im Raum. Die vier Fragen kommen erst danach, in der Reihenfolge Warum, Was, Wie, Wozu. Eine Frage, deren Antwort von einer noch offenen Frage abhängt, gehört in eine spätere Runde. Frage ich selbst zuerst nach dem Wozu, beantworte es vorgezogen und schließe dann die Lücken.
 
@@ -98,7 +111,7 @@ Die Session ist fertig, wenn die Frontier leer ist und nichts mehr stillschweige
 **Offen** was, warum noch nicht, wann
 ```
 
-Danach ein Satz: Ob du daraus einen Redetext in meinen eigenen Worten machen sollst. Nur auf Wunsch.
+Danach fragst du, ob du daraus einen Redetext in meinen eigenen Worten machen sollst, mit Auswahl-Werkzeug als Frage mit Knöpfen. Nur auf Wunsch.
 
 ## Sprache in Rahmung und Redetext
 
