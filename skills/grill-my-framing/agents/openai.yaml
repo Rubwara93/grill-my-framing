@@ -1,0 +1,5 @@
+interface:
+  display_name: "grill-my-framing"
+  short_description: "Eine Botschaft rahmen: als wer, für wen, Emotionen im Raum, warum, was, wie, wozu"
+policy:
+  allow_implicit_invocation: false

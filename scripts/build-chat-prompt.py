@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Erzeugt chat/4mat-me-prompt.md aus skills/4mat-me/SKILL.md.
+"""Erzeugt chat/grill-my-framing-prompt.md aus skills/grill-my-framing/SKILL.md.
 
 Die Chat-Fassung ist für claude.ai, ChatGPT und andere Chat-Oberflächen gedacht:
 kein Dateizugriff, keine Slash-Befehle, keine installierten Skills.
@@ -8,8 +8,8 @@ Aufruf: python3 scripts/build-chat-prompt.py
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-src = root / "skills" / "4mat-me" / "SKILL.md"
-dst = root / "chat" / "4mat-me-prompt.md"
+src = root / "skills" / "grill-my-framing" / "SKILL.md"
+dst = root / "chat" / "grill-my-framing-prompt.md"
 
 text = src.read_text(encoding="utf-8")
 # Frontmatter entfernen
@@ -17,7 +17,7 @@ body = text.split("---", 2)[2].lstrip()
 
 replacements = [
     (
-        "# 4MAT-me\n\nInterviewe die Person so lange",
+        "# grill-my-framing\n\nInterviewe die Person so lange",
         "Du bist mein Sparringspartner für eine Botschaft, die ich vorbereiten muss. "
         "Interviewe mich so lange",
     ),
@@ -55,13 +55,13 @@ body = body.replace("Was die Person zum Entscheiden braucht", "Was ich zum Entsc
 body = body.replace("Wo nur die Person die Antwort kennt", "Wo nur ich die Antwort kenne")
 body = body.replace("Hat die Person den Anlass beim Aufruf noch nicht genannt", "Habe ich den Anlass noch nicht genannt")
 
-header = """# 4MAT-me als Chat-Prompt
+header = """# grill-my-framing als Chat-Prompt
 
-Diese Fassung ist für Chat-Oberflächen ohne Skill-System: claude.ai, ChatGPT, Gemini, Copilot. Sie wird aus `skills/4mat-me/SKILL.md` erzeugt, bitte dort ändern und `python3 scripts/build-chat-prompt.py` ausführen.
+Diese Fassung ist für Chat-Oberflächen ohne Skill-System: claude.ai, ChatGPT, Gemini, Copilot. Sie wird aus `skills/grill-my-framing/SKILL.md` erzeugt, bitte dort ändern und `python3 scripts/build-chat-prompt.py` ausführen.
 
 **So verwendest du sie**
 
-- claude.ai: Ein Projekt „4MAT-me" anlegen und den Text unten als Projektanweisung einfügen. Jede neue Unterhaltung im Projekt startet damit. Alternativ den Text als erste Nachricht einer Unterhaltung schicken und die eigene Situation direkt darunter schreiben.
+- claude.ai: Ein Projekt „grill-my-framing" anlegen und den Text unten als Projektanweisung einfügen. Jede neue Unterhaltung im Projekt startet damit. Alternativ den Text als erste Nachricht einer Unterhaltung schicken und die eigene Situation direkt darunter schreiben.
 - ChatGPT: Als Anweisung in einem Projekt oder als Custom GPT anlegen, oder als erste Nachricht einfügen.
 - Unterlagen (Präsentation, Organigramm, Mail-Entwurf) als Anhang mitgeben oder einfügen. Eine Textprobe des eigenen Stils dazu, wenn der Redetext danach klingen soll.
 

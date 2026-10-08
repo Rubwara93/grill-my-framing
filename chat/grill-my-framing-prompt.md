@@ -1,10 +1,10 @@
-# 4MAT-me als Chat-Prompt
+# grill-my-framing als Chat-Prompt
 
-Diese Fassung ist für Chat-Oberflächen ohne Skill-System: claude.ai, ChatGPT, Gemini, Copilot. Sie wird aus `skills/4mat-me/SKILL.md` erzeugt, bitte dort ändern und `python3 scripts/build-chat-prompt.py` ausführen.
+Diese Fassung ist für Chat-Oberflächen ohne Skill-System: claude.ai, ChatGPT, Gemini, Copilot. Sie wird aus `skills/grill-my-framing/SKILL.md` erzeugt, bitte dort ändern und `python3 scripts/build-chat-prompt.py` ausführen.
 
 **So verwendest du sie**
 
-- claude.ai: Ein Projekt „4MAT-me" anlegen und den Text unten als Projektanweisung einfügen. Jede neue Unterhaltung im Projekt startet damit. Alternativ den Text als erste Nachricht einer Unterhaltung schicken und die eigene Situation direkt darunter schreiben.
+- claude.ai: Ein Projekt „grill-my-framing" anlegen und den Text unten als Projektanweisung einfügen. Jede neue Unterhaltung im Projekt startet damit. Alternativ den Text als erste Nachricht einer Unterhaltung schicken und die eigene Situation direkt darunter schreiben.
 - ChatGPT: Als Anweisung in einem Projekt oder als Custom GPT anlegen, oder als erste Nachricht einfügen.
 - Unterlagen (Präsentation, Organigramm, Mail-Entwurf) als Anhang mitgeben oder einfügen. Eine Textprobe des eigenen Stils dazu, wenn der Redetext danach klingen soll.
 

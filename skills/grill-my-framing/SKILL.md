@@ -1,10 +1,10 @@
 ---
-name: 4mat-me
-description: Use when someone wants to sort a message with the 4MAT before delivering it. Announcing a change to a team, opening a meeting, delegating a task, explaining a decision, writing an invitation or an email that must land. Trigger phrases: "4MAT", "Rahmung", "wie kündige ich das an", "Veränderung kommunizieren", "Meeting rahmen", "nach Warum, Was, Wie, Wozu sortieren".
+name: grill-my-framing
+description: Use when someone wants to sort a message along Why, What, How and What for (the 4MAT model by Bernice McCarthy) before delivering it. Announcing a change to a team, opening a meeting, delegating a task, explaining a decision, writing an invitation or an email that must land. Trigger phrases: "4MAT", "Rahmung", "wie kündige ich das an", "Veränderung kommunizieren", "Meeting rahmen", "nach Warum, Was, Wie, Wozu sortieren".
 disable-model-invocation: true
 ---
 
-# 4MAT-me
+# grill-my-framing
 
 Interviewe die Person so lange, bis ihre Botschaft sortiert ist. Der Inhalt kommt aus ihren Antworten, die Struktur kommt von dir. Du lieferst keinen fertigen Plan aus eigenen Annahmen und keine Rede, um die niemand gebeten hat.
 

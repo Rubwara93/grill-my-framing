@@ -7,11 +7,11 @@
   "description": "Skills von Ruben Langwara für Kommunikation und emotionale Resilienz.",
   "plugins": [
     {
-      "name": "4mat-skill",
+      "name": "grill-my-framing",
       "source": "./",
-      "description": "Botschaften mit dem 4MAT sortieren: Als wer, für wen, was ist im Raum, warum, was, wie, wozu.",
+      "description": "Botschaften rahmen nach Warum, Was, Wie, Wozu: Als wer, für wen, was ist im Raum, warum, was, wie, wozu.",
       "category": "productivity",
-      "keywords": ["4mat", "kommunikation", "fuehrung", "change", "emotionen"]
+      "keywords": ["framing", "kommunikation", "fuehrung", "change", "emotionen"]
     }
   ]
 }
